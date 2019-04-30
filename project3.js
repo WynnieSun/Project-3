@@ -1,7 +1,8 @@
 
 // main dataset
 var data = [
- [{
+ [ // public_importance
+   {
    "group": "public_importance",
    "axis": "living condition",
    "value": 5.99,
@@ -37,7 +38,8 @@ var data = [
    "value": 6.46,
    "description": "The campus is safe and secure for all students"
  }],
- [{
+ [//public_satisfaction
+   {
    "group": "public_satisfaction",
    "axis": "living condition",
    "value": 4.82,
@@ -73,7 +75,8 @@ var data = [
    "value": 5.52,
    "description": "The campus is safe and secure for all students"
  }],
- [{
+ [//private_importance
+   {
    "group": "private_importance",
    "axis": "living condition",
    "value": 6.15,
@@ -109,7 +112,8 @@ var data = [
    "value": 6.47,
    "description": "The campus is safe and secure for all students"
  }],
- [{
+ [//private_satisfaction
+   {
    "group": "private_satisfaction",
    "axis": "living condition",
    "value": 4.75,
@@ -396,19 +400,19 @@ var RadarChart = {
                   return d[0].group})
                 .on("mouseover",function(d){
                       console.log(d[0].group)
-                      if (d[0].group = "public_importance"){
+                  if (d[0].group = "public_importance"){
                     d3.select(".radar-chart-serie0")
                       .transition(200)
                       .style("fill-opacity", 0.7);}
-                    else if (d[0].group = "public_satisfaction"){
+                  else if (d[0].group = "public_satisfaction"){
                     d3.select(".radar-chart-serie1")
                       .transition(200)
                       .style("fill-opacity", 0.7);}
-                    else if (d[0].group = "private_importance"){
+                  else if (d[0].group = "private_importance"){
                     d3.select(".radar-chart-serie2")
                       .transition(200)
                       .style("fill-opacity", 0.7);}
-                    else //(d[0].group = "private_satisfaction")//
+                  else //(d[0].group = "private_satisfaction")//
                     {
                     d3.select(".radar-chart-serie3")
                       .transition(200)
@@ -423,11 +427,11 @@ var RadarChart = {
                     d3.select(".radar-chart-serie1")
                       .transition(200)
                       .style("fill-opacity", cfg.opacityArea);}
-                else  if (d[0].group = "private_importance"){
+                  else if (d[0].group = "private_importance"){
                     d3.select(".radar-chart-serie2")
                       .transition(200)
                       .style("fill-opacity", cfg.opacityArea);}
-                 else //(d[0].group = "private_satisfaction")
+                  else //(d[0].group = "private_satisfaction")
                  {
                     d3.select(".radar-chart-serie3")
                       .transition(200)
