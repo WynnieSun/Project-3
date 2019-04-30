@@ -1,0 +1,25 @@
+﻿group ,axis,value,description 
+public_importance,living condition,5.99,Living conditions in the residence halls are comfortable
+public_importance,food in the cafeteria,5.99,There is an adequate selection of food available in the cafeteria
+public_importance,concern for the individual,6.09,Faculty care about me as an induvidual
+public_importance,variety of courses,6.38,There is a good variety of courses provided on this campus
+public_importance,financial aid,6.33,Adequate financial aid is available for most students
+public_importance,safety and security,6.46,The campus is safe and secure for all students
+public_satisfaction,living condition,4.82,Living conditions in the residence halls are comfortable
+public_satisfaction,food in the cafeteria,4.46,There is an adequate selection of food available in the cafeteria
+public_satisfaction,concern for the individual,5.12,Faculty care about me as an induvidual
+public_satisfaction,variety of courses,5.54,There is a good variety of courses provided on this campus
+public_satisfaction,financial aid,4.9,Adequate financial aid is available for most students
+public_satisfaction,safety and security,5.52,The campus is safe and secure for all students
+private_importance,living condition,6.15,Living conditions in the residence halls are comfortable
+private_importance,food in the cafeteria,6.08,There is an adequate selection of food available in the cafeteria
+private_importance,concern for the individual,6.25,Faculty care about me as an induvidual
+private_importance,variety of courses,6.64,There is a good variety of courses provided on this campus
+private_importance,financial aid,6.38,Adequate financial aid is available for most students
+private_importance,safety and security,6.47,The campus is safe and secure for all students
+private_satisfaction,living condition,4.75,Living conditions in the residence halls are comfortable
+private_satisfaction,food in the cafeteria,4.26,There is an adequate selection of food available in the cafeteria
+private_satisfaction,concern for the individual,5.54,Faculty care about me as an induvidual
+private_satisfaction,variety of courses,5.51,There is a good variety of courses provided on this campus
+private_satisfaction,financial aid,5.01,Adequate financial aid is available for most students
+private_satisfaction,safety and security,5.73,The campus is safe and secure for all students
